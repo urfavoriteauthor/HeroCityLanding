@@ -25,14 +25,14 @@ body {
     float: right;
     background-color: black;
     color: white;
-    clear:both;
+    clear: both;
 }
 
 #zip {
     float: left;
     background-color: black;
     color: white;
-clear: both;
+    clear: both;
 }
 
 #author {
@@ -69,4 +69,67 @@ clear: both;
     background-color: black;
     color: white;
     background-image: url(../images/hcrblack.png)
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%
+    }
+
+    #author {
+        margin-left: auto;
+        margin-right: auto;
+        left:0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        width: 100%
+    }
+
+    #author {
+        margin-left: auto;
+        margin-right: auto;
+        left:0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        width: 100%
+    }
+
+    #author {
+        margin-left: auto;
+        margin-right: auto;
+        left:0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        width: 100%
+    }
+
+    #author {
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        width: 100%
+    }
+
+    #author {
+        margin-left: auto;
+        margin-right: auto
+    }
 }
