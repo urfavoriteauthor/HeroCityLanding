@@ -1,135 +1,165 @@
-body {
-    padding: 70px;
-    background-image: url(../images/hcrredbig.png);
-    background-size: 1350px;
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
 
+body {
+	padding: 70px;
+	background-image: url(../images/hcrredbig.png);
+	background-size: 1350px;
 }
 
 
+p {
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
 #graffiti {
-    float: right;
-    background-color: black;
-    color: white;
-    clear: both;
+	float: right;
+	background-color: black;
+	color: white;
+	clear: both;
+}
+#graffiti:hover{
+    background-image: url(../images/hcrwhite.jpg);
+    background-size: cover;
+    color: black;
+    font-weight: bold;
 }
 
 #bomb {
-    float: left;
-    background-color: black;
-    color: white;
-    clear: both;
-
+	float: left;
+	background-color: black;
+	color: white;
+	clear: both;
+}
+#bomb:hover{
+    background-image: url(../images/hcrwhite.jpg);
+    background-size: cover;
+    color: black;
+    font-weight: bold;
 }
 
 #void {
-    float: right;
-    background-color: black;
-    color: white;
-    clear: both;
+	float: right;
+	background-color: black;
+	color: white;
+	clear: both;
+}
+#void:hover{
+    background-image: url(../images/hcrwhite.jpg);
+    background-size: cover;
+    color: black;
+    font-weight: bold;
 }
 
+
 #zip {
-    float: left;
-    background-color: black;
-    color: white;
-    clear: both;
+	float: left;
+	background-color: black;
+	color: white;
+	clear: both;
 }
 
 #author {
-    float: right;
-    right: 150px;
-    top: 75px;
-    background-color: black;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    clear: both;
+	float: right;
+	right: 150px;
+	top: 75px;
+	background-color: black;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+#zip:hover{
+    background-image: url(../images/hcrwhite.jpg);
+    background-size: cover;
+    color: black;
+    font-weight: bold;
 }
 
+
 .footer {
-    background-color: black;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
-    justify-content: center;
-    right: 100px;
-    bottom: 75px;
-    float: auto;
-    color: ivory;
-    padding: 20px;
-    float: left;
-    clear: both;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+	justify-content: center;
+	right: 100px;
+	bottom: 75px;
+	float: auto;
+	color: ivory;
+	padding: 20px;
+	float: left;
+	clear: both;
 }
 
 .jumbotron {
-    background-color: black;
+	background-color: black;
 }
 
 .jumbotron-fluid {
-    background-color: black;
-    color: white;
-    background-image: url(../images/hcrblack.png)
+	background-color: black;
+	color: white;
+	background-image: url(../images/hcrblack.png);
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    body {
-        width: 100%
-    }
+	body {
+		width: 100%;
+	}
 
-    #author {
-        margin-left: auto;
-        margin-right: auto;
-        left:0;
-    }
+	#author {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    body {
-        width: 100%
-    }
+	body {
+		width: 100%;
+	}
 
-    #author {
-        margin-left: auto;
-        margin-right: auto;
-        left:0;
-    }
+	#author {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    body {
-        width: 100%
-    }
+	body {
+		width: 100%;
+	}
 
-    #author {
-        margin-left: auto;
-        margin-right: auto;
-        left:0;
-    }
+	#author {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    body {
-        width: 100%
-    }
+	body {
+		width: 100%;
+	}
 
-    #author {
-        margin-left: auto;
-        margin-right: auto
-    }
+	#author {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    body {
-        width: 100%
-    }
+	body {
+		width: 100%;
+	}
 
-    #author {
-        margin-left: auto;
-        margin-right: auto
-    }
+	#author {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
